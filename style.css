@@ -1,0 +1,54 @@
+/* General page styling */
+body {
+  background-color: orange;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1 {
+  color: darkblue;
+  font-size: 2.5em;
+}
+h2 {
+  color: green;
+  font-size: 2em;
+  background-color: greenyellow;
+}
+h4 {
+  color: purple;
+  font-size: 1.5em;
+}
+
+/* Paragraphs */
+p {
+  color: black;
+  font-size: 1.1em;
+  color: white;
+}
+#special-para {
+  color: maroon;
+  font-weight: bold;
+}
+
+/* Links */
+.links a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+}
+.links a:hover {
+  color: white;
+  background-color: black;
+  padding: 2px 5px;
+}
+
+/* List items */
+li {
+  margin: 5px 0;
+}
+li.blue {
+  color: blue;
+}
+li.red {
+  color: red;
+}
